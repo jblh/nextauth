@@ -40,7 +40,7 @@ function Form() {
     <form className="flex flex-col relative space-y-2 text-black/80 dark:text-white/75">
       <textarea
         rows="4"
-        placeholder="What do you want to talk about?"
+        placeholder="What do you want to say?"
         className="bg-transparent focus:outline-none dark:placeholder-white/75"
         value={input}
         onChange={(e) => setInput(e.target.value)}

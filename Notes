@@ -1,2 +1,4 @@
 .env.local.
 
+to add all files in git: 
+git add .

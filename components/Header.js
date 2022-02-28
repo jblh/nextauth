@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="sticky top-0 z-40 bg-white dark:bg-[#1D2226] flex items-center justify-around py-1.5 px-3 focus-within:shadow-lg">
       {/* Left */}
-      <div className="flex items-center space-x-2 w-full max-w-xs">
+      {/* <div className="flex items-center space-x-2 w-full max-w-xs">
         {mounted && (
           <>
             {resolvedTheme === "dark" ? (
@@ -49,17 +49,17 @@ function Header() {
             className="hidden md:inline-flex bg-transparent text-sm focus:outline-none placeholder-black/70 dark:placeholder-white/75 flex-grow"
           />
         </div>
-      </div>
+      </div> */}
       {/* Right */}
 
       <div className="flex items-center space-x-6">
-        <HeaderLink Icon={HomeRoundedIcon} text="Home" feed active />
+        {/* <HeaderLink Icon={HomeRoundedIcon} text="Home" feed active />
         <HeaderLink Icon={GroupIcon} text="My Network" feed />
         <HeaderLink Icon={BusinessCenterIcon} text="Jobs" feed hidden />
         <HeaderLink Icon={ChatIcon} text="Messaging" feed />
-        <HeaderLink Icon={NotificationsIcon} text="Notifications" feed />
+        <HeaderLink Icon={NotificationsIcon} text="Notifications" feed /> */}
         <HeaderLink Icon={Avatar} text="Me" feed avatar hidden />
-        <HeaderLink Icon={AppsOutlinedIcon} text="Work" feed hidden />
+        {/* <HeaderLink Icon={AppsOutlinedIcon} text="Work" feed hidden /> */}
 
         {/* Dark mode toggle */}
         {mounted && (
